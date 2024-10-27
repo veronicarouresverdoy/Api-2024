@@ -1,0 +1,30 @@
+{
+  "name": "primera-api-expresss",
+  "version": "1.0.0",
+  "description": "creación de mi primera API Rest con ExpressJS y Typescript. Será un CRUD sobre una BD PosgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "Rest",
+    "CRUD",
+    "Typescript",
+    "Buenas",
+    "prácticas",
+    "PosgreSQL"
+  ],
+  "author": "Verónica Roures",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.1",
+    "nodemon": "^3.1.7",
+    "typescript": "^5.6.3"
+  }
+}
